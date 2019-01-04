@@ -1,0 +1,24 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+
+RewriteBase /
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)[^\/]$ /$0/ [R=301,L]
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+
+#php_value upload_max_filesize 60M
+#php_value post_max_size 60M
+#php_value max_execution_time 1000
+#php_value max_input_time 1000
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
