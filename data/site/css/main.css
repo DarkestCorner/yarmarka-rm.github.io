@@ -7,7 +7,7 @@ img{border:none; outline:none}
     width: 100%;
     height:0;
 }
-body {background: url('./data/site/img/pattern_body.png'); font-family: Georgia, serif; color:#333333;}
+body {background: url('../img/pattern_body.png'); font-family: Georgia, serif; color:#333333;}
 a{color:#a00900} h1{font-weight: normal;}
 a:hover{text-decoration:none;}
 .hide, .hidden_text{display:none !important; }
@@ -15,7 +15,7 @@ a:hover{text-decoration:none;}
 .italic{font-style:italic}
 
 .header_wrap{
-    width:100%; height:200px; background: url('./data/site/img/pattern.png'); border-bottom:1px solid #fff;
+    width:100%; height:200px; background: url('../img/pattern.png'); border-bottom:1px solid #fff;
     border-bottom-left-radius:100% 20%; border-bottom-right-radius:100% 20%;
     -webkit-box-shadow: inset 0px -2px 10px 0px rgba(50, 20, 11, 2); box-shadow: inset 0px -2px 10px 0px rgba(50, 20, 11, 2);
 }
@@ -25,7 +25,7 @@ a:hover{text-decoration:none;}
 .phone{font-size:24px; color:#f7eed4; position: absolute; right:10px; top:25px;}
 .order_call{
     display:block; position:absolute; right:10px; top:75px; padding:0 0 0 30px;
-    background: url('./data/site/img/phone.png') no-repeat;
+    background: url('../img/phone.png') no-repeat;
 }
 .order_call a{color:#ffed76; text-decoration:none; border-bottom:1px solid #ffed76;}
 .order_call a:hover{border:none}
@@ -34,8 +34,8 @@ a:hover{text-decoration:none;}
     -webkit-box-shadow:  0px 1px 5px 0px rgba(66, 50, 45, 0.8);
     box-shadow:  0px 1px 5px 0px rgba(66, 50, 45, 0.8);
 }
-.left_side{width:458px; height:303px; float:left; background: url('./data/site/img/action.png') no-repeat; position:relative;}
-.timer{height:115px; width:100%; background: url('./data/site/img/opacity.png'); position: absolute; bottom:0; left:0}
+.left_side{width:458px; height:303px; float:left; background: url('../img/action.png') no-repeat; position:relative;}
+.timer{height:115px; width:100%; background: url('../img/opacity.png'); position: absolute; bottom:0; left:0}
 .item_time{
     width:30px; height:40px; display:inline-block; margin:0 4px; text-align:center; line-height: 40px;
     border-bottom:1px solid #bebebd; font-size:24px; color:#3c2c28; vertical-align:middle;
@@ -72,7 +72,7 @@ a:hover{text-decoration:none;}
 
 .products_section{width:960px; margin: 270px auto 0 auto;}
 .our_products_h1{
-    background: url('./data/site/img/our_products_h1.png') no-repeat center; 
+    background: url('../img/our_products_h1.png') no-repeat center; 
     text-align:center; font-size:30px; margin:0 0 10px 0;
 }
 .products{
@@ -84,6 +84,7 @@ a:hover{text-decoration:none;}
 .products figure .for_img img{max-width:298px; max-height:224px; cursor:pointer}
 .prod_name{color:#a00900; font-size:24px; text-decoration: none; border-bottom:1px solid #a00900;}
 .prod_name:hover{border:none}
+.prod_name:hover{border:none}
 .figure_text{height:85px; padding:10px 20px; position: relative;}
 .materials{font-size:16px; font-style:italic; padding:17px 0 0 0}
 .price{font-size: 28px; color:#a00900; text-align: right; position: absolute; bottom: 15px; right:20px;}
@@ -91,7 +92,7 @@ a:hover{text-decoration:none;}
 
 .pdf{
     width:550px; font-size:20px; margin: 40px 0 15px 204px; padding:0 0 10px 60px; position: relative;
-    background: url('./data/site/img/xls.png') no-repeat 0 5px; line-height:23px;
+    background: url('../img/xls.png') no-repeat 0 5px; line-height:23px;
 }
 .pdf span{color:#7c7c7c; font-size:14px;}
 .pdf a{text-decoration: none; border-bottom:1px solid #a00900} 
@@ -103,16 +104,16 @@ a:hover{text-decoration:none;}
 .profit figure{padding:0 0 0 160px; margin:40px 0; width:250px; display:inline-block; vertical-align:top; min-height: 115px;}
 .profit figure figcaption{color:#a00900; font-size:20px; font-family:"PT Serif", serif; padding:0 0 15px 0;}
 .profit figure p{font-size:14px; color:#333333; line-height:23px}
-.profit figure.eli{background: url('./data/site/img/eli.png') no-repeat;}
-.profit figure.map{background: url('./data/site/img/map.png') no-repeat; margin-left:75px; width:275px}
-.profit figure.calen{background: url('./data/site/img/calen.png') no-repeat;}
-.profit figure.expirience{background: url('./data/site/img/people.png') no-repeat; margin-left:75px; width:275px}
+.profit figure.eli{background: url('../img/eli.png') no-repeat;}
+.profit figure.map{background: url('../img/map.png') no-repeat; margin-left:75px; width:275px}
+.profit figure.calen{background: url('../img/calen.png') no-repeat;}
+.profit figure.expirience{background: url('../img/people.png') no-repeat; margin-left:75px; width:275px}
 
 .top_pila_wrap{width:100%; position:relative;}
-.half_part{position: absolute; bottom:0; right:0; height:4px; width:50%; background: url('./data/site/img/cut.png') repeat-x bottom;}
-.top_pila_wrap .pila{width:960px; margin:0 auto; background: url('./data/site/img/cut.png') repeat-x bottom;}
+.half_part{position: absolute; bottom:0; right:0; height:4px; width:50%; background: url('../img/cut.png') repeat-x bottom;}
+.top_pila_wrap .pila{width:960px; margin:0 auto; background: url('../img/cut.png') repeat-x bottom;}
 .top_pila_wrap .pila span{
-    display:block; width:108px; height:41px; background: url('./data/site/img/pila.png') no-repeat; padding:0 0 2px 0;
+    display:block; width:108px; height:41px; background: url('../img/pila.png') no-repeat; padding:0 0 2px 0;
 }
 .work_simple_h1{font-size:30px; text-align: center; margin:30px 0 20px 0;}
 .bottom_pila_wrap .pila{text-align:right; font-size:0;}
@@ -150,12 +151,12 @@ a:hover{text-decoration:none;}
 .otziv figure figcaption, #for_text figure figcaption{font-size:22px;}
 .otziv figure p, #for_text figure p{ font-size:14px; margin: 22px 0 0 127px; font-style:italic}
 .show_all_otziv{
-    display:block; line-height:50px; font-size:16px; background: url('./data/site/img/view.png') no-repeat 110px 19px;
+    display:block; line-height:50px; font-size:16px; background: url('../img/view.png') no-repeat 110px 19px;
     text-align: center; color:#3d2e2a; text-decoration: none; float:left; width:460px; border: 1px dashed #c30e01;
 }
 #cnt_otziv{left:0;}
 .write_review{
-    display:block; line-height:50px; font-size:16px; background: url('./data/site/img/write_review.png') no-repeat 149px 13px;
+    display:block; line-height:50px; font-size:16px; background: url('../img/write_review.png') no-repeat 149px 13px;
     text-align: center; color:#3d2e2a; text-decoration: none; float:right; width:460px; border: 1px dashed #c30e01;
 }
 .show_all_otziv span, .write_review span {border-bottom:1px dashed #3d2e2a; position: relative; left:10px;}
@@ -180,13 +181,13 @@ a:hover{text-decoration:none;}
    text-decoration:none;  transition:all 0.5s ease-in;
 }
 .carousel-button-left a:hover, .carousel-button-right a:hover{transition:all 0.5s ease-in}
-.carousel-button-left a:hover{background: url(./data/site/img/carousel_left_hover.png) no-repeat;}
-.carousel-button-right a:hover{background: url(./data/site/img/carousel_right_hover.png) no-repeat;}
+.carousel-button-left a:hover{background: url(../img/carousel_left_hover.png) no-repeat;}
+.carousel-button-right a:hover{background: url(../img/carousel_right_hover.png) no-repeat;}
 .carousel-button-left a{
-   float: left; position: relative; background: url(./data/site/img/carousel_left.png) no-repeat; 
+   float: left; position: relative; background: url(../img/carousel_left.png) no-repeat; 
 }
 .carousel-button-right a{
-   float: right; position: relative; background: url(./data/site/img/carousel_right.png) no-repeat; 
+   float: right; position: relative; background: url(../img/carousel_right.png) no-repeat; 
 }
 /* carousel end */
 
@@ -196,11 +197,11 @@ section.order{
 }
 section.order .div_border{position: absolute;}
 section.order .top, section.order .bottom{
-    height:10px; width: 100%; top:0; left: 0; background: url('./data/site/img/mail_hor.png') repeat-x;
+    height:10px; width: 100%; top:0; left: 0; background: url('../img/mail_hor.png') repeat-x;
 }
 section.order .bottom{bottom:0; top:auto}
 section.order .left, section.order .right{
-    height:100%; width: 10px; top:0; left: 0; background: url('./data/site/img/mail_vert.png') repeat-y;
+    height:100%; width: 10px; top:0; left: 0; background: url('../img/mail_vert.png') repeat-y;
 }
 section.order .right{right:0; left:auto}
 .order_btn{display:block; margin: 20px auto;}
@@ -220,12 +221,12 @@ section.order .select_wrap{display:block; position: relative;width:455px; float:
 
 section.order table .select_wrap:after{
     content:" "; position: absolute; right:0; top:0; width:40px; height:38px;
-    background: #e6e6e6 url('./data/site/img/strelka_select.png') no-repeat center; pointer-events: none; 
+    background: #e6e6e6 url('../img/strelka_select.png') no-repeat center; pointer-events: none; 
 }
 
 .pointer_events_none{pointer-events:none; opacity: 0.7;}
 
-.footer_wrapper{width:100%; background: url('./data/site/img/pattern.png'); margin:32px 0 0 0;}
+.footer_wrapper{width:100%; background: url('../img/pattern.png'); margin:32px 0 0 0;}
 .footer{padding:30px 0; height:50px; width:940px; margin: 0 auto; position: relative}
 .name_org{font-style: italic; font-size: 14px; color:#fff; width:380px; float:left; line-height:24px; margin:0 100px 0 0;}
 .rekviz{font-style: italic; font-size: 14px; color:#fff; line-height:24px; width:448px; float:left}
@@ -234,7 +235,7 @@ section.order table .select_wrap:after{
 /* hidden block */
 .overlay {
     position: fixed; top: 0; left: 0; width: 100%; height: 100%; overflow-y: scroll;
-    background: url('./data/site/img/fon_yslugi.png'); display: none;
+    background: url('../img/fon_yslugi.png'); display: none;
 }
 .hidden_block {
     position: absolute;top: 100px;background: #fff; width: 820px;
@@ -242,9 +243,9 @@ section.order table .select_wrap:after{
 }
 .close_btn {
     position: absolute; top: -14px; right: -12px; width: 29px; height: 29px;
-    background: url('./data/site/img/close.png') no-repeat center; cursor: pointer;
+    background: url('../img/close.png') no-repeat center; cursor: pointer;
 }
-.full_descr_h1{background: url('./data/site/img/pattern_body.png'); padding:20px 20px}
+.full_descr_h1{background: url('../img/pattern_body.png'); padding:20px 20px}
 .full_descr{padding:20px 20px}
 .order_in_hidden{float:right; width:452px;}
 .full_descr p{font-style: italic; line-height:27px;}
@@ -266,11 +267,11 @@ section.order table .select_wrap:after{
 .full_descr .go_top span{cursor:pointer; border-bottom: 1px dashed #333; position: relative;}
 .full_descr .go_top span:hover{border:none}
 .full_descr .go_top span:before{
-    content: " "; width:13px; height:13px; background: url('./data/site/img/arrow_up.png') no-repeat;
+    content: " "; width:13px; height:13px; background: url('../img/arrow_up.png') no-repeat;
     position: absolute; top:4px; left:-24px;
 }
 .full_descr .go_top span:after{
-    content: " "; width:13px; height:13px; background: url('./data/site/img/arrow_up.png') no-repeat;
+    content: " "; width:13px; height:13px; background: url('../img/arrow_up.png') no-repeat;
     position: absolute; top:4px; right:-24px;
 }
 .rasp{width:100%; height:30px}
@@ -293,11 +294,11 @@ section.order tr.goods .select_wrap{width:400px}
 section.order table tr.goods select{width:400px}
 .remove_goods{
     display:block; width:35px; height:36px; cursor: pointer; margin: 0 5px 0 15px;
-    background: url('./data/site/img/remove_goods.png') no-repeat center;
+    background: url('../img/remove_goods.png') no-repeat center;
 }
 .add_goods{
     color:#c30e01; font-style:italic; cursor:pointer; line-height: 36px; padding:0 0 0 35px; width:190px;
-    background: url('./data/site/img/add_goods.png') no-repeat 0 center; margin:0 0 0 25px;
+    background: url('../img/add_goods.png') no-repeat 0 center; margin:0 0 0 25px;
 }
 .add_goods span{border-bottom:1px dashed #c30e01;}
 .add_goods:hover span{border:none;}
@@ -306,7 +307,7 @@ section.order table tr.add_goods_tr td{padding:0;}
 .footer_wrapper{display: none}
 
 .contacts_info{margin:40px auto 0 auto; width:960px; padding:0 0 25px 0;}
-.contact_info_h1{background-image: url('./data/site/img/contact_h1.png'); margin:0 0 20px 0}
+.contact_info_h1{background-image: url('../img/contact_h1.png'); margin:0 0 20px 0}
 .contacts_info p{font-style: italic; line-height: 24px; padding: 5px}
 .contacts_info p span{color:#7c7c7c; font-style: normal;}
 .cont1, .cont2{width:450px;}
